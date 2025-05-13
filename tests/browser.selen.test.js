@@ -19,5 +19,5 @@ afterAll(async () => {
 test('The push button should have correct label text', async () => {
     const pushButton = await driver.findElement(By.name('push'));
     const label = await pushButton.getText();
-    expect(label).toContain('Fel text')
+    expect(label).toContain('Pusha')
 }) 

@@ -4,5 +4,5 @@ test('peek returns same value twice if stack is unchanged', () =>{
     stack.push('bananfluga');
     const one = stack.peek();
     const two = stack.peek();
-    expect(one).toBe('något fel');
+    expect(one).toBe(two);
 });
